@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<omniplan xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
+  <window x="2880" y="167" w="960" h="529">
+    <editing-scenario>ogS8ixKXfP7</editing-scenario>
+    <view>task</view>
+    <overview/>
+    <change-tracking/>
+    <status-display>extended</status-display>
+    <task-view>
+      <split-view-divider-position>611</split-view-divider-position>
+      <outline x="89" y="0" w="611" h="358">
+        <column name="Status" width="20"/>
+        <column name="Title" width="329"/>
+        <column name="Assigned" width="165"/>
+        <column name="%Done" width="46"/>
+        <column name="Effort" width="72"/>
+        <column name="Effort Done" width="67"/>
+        <expanded-items idrefs="t46 t130 t70 t59 t75 t113 t26 t118 t144 t92 t63 t111 t22 t127 t116 t97 t89 t69 t60 t140 t36 t28 t123 t61 t165 t128 t159 t185 t121 t163 t152 t126"/>
+        <expanded-item-notes idrefs="t83 t41"/>
+      </outline>
+      <gantt-view x="72" y="0" w="333" h="358">
+        <view-mode>actual</view-mode>
+        <critical-path/>
+        <dependency-lines/>
+        <constraints/>
+        <show-project-end/>
+        <task-bar-label task-type="group" position="left">
+          <key/>
+        </task-bar-label>
+        <task-bar-label task-type="group" position="center">
+          <key/>
+        </task-bar-label>
+        <task-bar-label task-type="group" position="right">
+          <key>Assigned</key>
+        </task-bar-label>
+        <task-bar-label task-type="milestone" position="left">
+          <key/>
+        </task-bar-label>
+        <task-bar-label task-type="milestone" position="center">
+          <key/>
+        </task-bar-label>
+        <task-bar-label task-type="milestone" position="right">
+          <key>Assigned</key>
+        </task-bar-label>
+        <task-bar-label task-type="task" position="left">
+          <key/>
+        </task-bar-label>
+        <task-bar-label task-type="task" position="center">
+          <key/>
+        </task-bar-label>
+        <task-bar-label task-type="task" position="right">
+          <key>Assigned</key>
+        </task-bar-label>
+        <scale scale-name="Automatic" full-day-width="461.248"/>
+        <scale scale-name="Day" full-day-width="180.71">
+          <selected/>
+        </scale>
+        <scale scale-name="Hour" full-day-width="65880"/>
+        <scale scale-name="Minute" full-day-width="64800"/>
+        <scale scale-name="Month" full-day-width="34.5"/>
+        <scale scale-name="Quarter" full-day-width="9.6"/>
+        <scale scale-name="Week" full-day-width="162"/>
+        <scale scale-name="Year" full-day-width="2.3625"/>
+      </gantt-view>
+    </task-view>
+    <resource-view>
+      <split-view-divider-position>306</split-view-divider-position>
+      <outline x="0" y="0" w="306" h="916">
+        <column name="IM" width="20"/>
+        <column name="Notes" width="20"/>
+        <column name="Type" width="49"/>
+        <column name="Resource" width="135"/>
+        <column name="#" width="75"/>
+        <selected-items-at-filter-time idrefs="r4 r7 r3 r6 r9 r5"/>
+      </outline>
+      <timeline x="39" y="0" w="1585" h="916">
+        <resource-allocation/>
+        <show-project-end/>
+        <task-bar-label task-type="group" position="left">
+          <key>Title</key>
+        </task-bar-label>
+        <task-bar-label task-type="group" position="center">
+          <key/>
+        </task-bar-label>
+        <task-bar-label task-type="group" position="right">
+          <key/>
+        </task-bar-label>
+        <task-bar-label task-type="milestone" position="left">
+          <key>Title</key>
+        </task-bar-label>
+        <task-bar-label task-type="milestone" position="center">
+          <key/>
+        </task-bar-label>
+        <task-bar-label task-type="milestone" position="right">
+          <key>Assigned</key>
+        </task-bar-label>
+        <task-bar-label task-type="task" position="left">
+          <key>Title</key>
+        </task-bar-label>
+        <task-bar-label task-type="task" position="center">
+          <key/>
+        </task-bar-label>
+        <task-bar-label task-type="task" position="right">
+          <key/>
+        </task-bar-label>
+        <scale scale-name="Automatic" full-day-width="300">
+          <selected/>
+        </scale>
+        <scale scale-name="Day" full-day-width="1215"/>
+        <scale scale-name="Hour" full-day-width="65880"/>
+        <scale scale-name="Minute" full-day-width="64800"/>
+        <scale scale-name="Month" full-day-width="34.5"/>
+        <scale scale-name="Quarter" full-day-width="9.6"/>
+        <scale scale-name="Week" full-day-width="162"/>
+        <scale scale-name="Year" full-day-width="2.3625"/>
+      </timeline>
+    </resource-view>
+    <calendar>
+      <split-view-divider-position>290</split-view-divider-position>
+      <outline x="0" y="0" w="290" h="881">
+        <column name="IM" width="20"/>
+        <column name="Notes" width="20"/>
+        <column name="Type" width="49"/>
+        <column name="Resource" width="154"/>
+        <column name="Custom Work Week" width="20"/>
+        <column name="Schedule Exception" width="20"/>
+      </outline>
+    </calendar>
+  </window>
+  <project>
+    <title>BL_stage_concept</title>
+    <next-task-id>186</next-task-id>
+    <next-resource-id>12</next-resource-id>
+    <scenario id="ogS8ixKXfP7" name="Actual" filename="Actual.xml"/>
+    <date-display dates="true" times="true" seconds="false"/>
+    <numbering-style>wbs</numbering-style>
+    <critical-path-slack>0</critical-path-slack>
+    <currency-format>€1.234,56</currency-format>
+    <duration-format hours-per-day="8" hours-per-week="40" hours-per-month="160" hours-per-year="1920" hours="true" days="true" weeks="true"/>
+    <effort-format hours-per-day="8" hours-per-week="40" hours-per-month="160" hours-per-year="1920" hours="true" days="true" weeks="true"/>
+    <base-style>
+      <style/>
+    </base-style>
+    <column-title-style>
+      <style>
+        <value key="font-weight">9</value>
+        <value key="paragraph-alignment">center</value>
+      </style>
+    </column-title-style>
+    <note-style>
+      <style>
+        <value key="font-family">Helvetica</value>
+        <value key="font-fill">
+          <color w="0.334677"/>
+        </value>
+        <value key="font-size">11</value>
+      </style>
+    </note-style>
+    <standard-task-style>
+      <style/>
+    </standard-task-style>
+    <overdue-task-style>
+      <style/>
+    </overdue-task-style>
+    <completed-task-style>
+      <style/>
+    </completed-task-style>
+    <group-task-style>
+      <style>
+        <value key="font-weight">9</value>
+      </style>
+    </group-task-style>
+    <milestone-task-style>
+      <style/>
+    </milestone-task-style>
+    <resource-style>
+      <style/>
+    </resource-style>
+    <not-editable-style>
+      <style>
+        <value key="font-fill">
+          <color w="0.334677"/>
+        </value>
+      </style>
+    </not-editable-style>
+    <publish>
+      <key>uuid</key>
+      <string>aBHHp3-ZiKb</string>
+      <key>template</key>
+      <string>Basic</string>
+      <key>active</key>
+      <string>YES</string>
+      <key>useFilters</key>
+      <bool>true</bool>
+      <key>ShowAllRows</key>
+      <bool>true</bool>
+      <key>asToDo</key>
+      <bool>false</bool>
+      <key>stringEncoding</key>
+      <integer>4</integer>
+      <key>includeTaskGroups</key>
+      <bool>true</bool>
+      <key>bookmarkData</key>
+      <data>Ym9va6ADAAAAAAQQMAAAAGAkz32owBHrjnf9sjo+1WTf0EnRRtI6WtSTfz9g9G8dnAIAAAQAAAADAwAAAAgAKAUAAAABAQAAVXNlcnMAAAAGAAAAAQEAAHZpa3BlawAABwAAAAEBAABEcm9wYm94AAIAAAABAQAAR0EAABAAAAABAQAAMDJfQmVmb3JlTGVnZW5kcxIAAAABAQAAQmVmb3JlTGVnZW5kcy1yZXBvAAAKAAAAAQEAAE1hbmFnZW1lbnQAAA0AAAABAQAAc3RhZ2VfZXhwb3J0cwAAAA0AAAABAQAAc3RhZ2VfY29uY2VwdAAAACQAAAABBgAAEAAAACAAAAAwAAAAQAAAAEwAAABkAAAAgAAAAJQAAACsAAAACAAAAAQDAADVkwIAAAAAAAgAAAAEAwAA8mgJAAAAAAAIAAAABAMAALSqCQAAAAAACAAAAAQDAACTtAkAAAAAAAgAAAAEAwAAjuVUAAAAAAAIAAAABAMAAIsxZQAAAAAACAAAAAQDAAAkymcAAAAAAAgAAAAEAwAALspnAAAAAAAIAAAABAMAAEGedgAAAAAAJAAAAAEGAADwAAAAAAEAABABAAAgAQAAMAEAAEABAABQAQAAYAEAAHABAAAIAAAAAAQAAEG6o2xnAAAAGAAAAAECAAACAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAIAAAABAMAAAcAAAAAAAAABAAAAAMDAAD1AQAACAAAAAEJAABmaWxlOi8vLwwAAAABAQAATWFjaW50b3NoIEhECAAAAAQDAAAAAAA0dAAAAAgAAAAABAAAQbnw8VcAAAAkAAAAAQEAADMzQTQ3MkFDLTU4ODMtMzE4Qy1CMTdDLUU3QUUyM0E3MzkxRBgAAAABAgAAgQAAAAEACADvFwAAAQAIAAAAAAAAAAAAAQAAAAEBAAAvAAAAAAAAAAEFAADMAAAA/v///wEAAAAAAAAAEAAAAAQQAADEAAAAAAAAAAUQAACAAQAAAAAAABAQAAC8AQAAAAAAAEAQAACsAQAAAAAAAAIgAACIAgAAAAAAAAUgAAD4AQAAAAAAABAgAAAIAgAAAAAAABEgAAA8AgAAAAAAABIgAAAcAgAAAAAAABMgAAAsAgAAAAAAACAgAABoAgAAAAAAADAgAACUAgAAAAAAAAHAAADcAQAAAAAAABHAAAAgAAAAAAAAABLAAADsAQAAAAAAABDQAAAEAAAAAAAAAA==</data>
+      <key>templatePath</key>
+      <string>/Applications/OmniPlan.app/Contents/Resources/en.lproj/HTMLTemplates/Standard</string>
+      <key>filePath</key>
+      <string>/Users/vikpek/Dropbox/GA/02_BeforeLegends/Management/stage_exports/stage_concept</string>
+      <key>class</key>
+      <string>OPExportAction</string>
+      <key>fileType</key>
+      <string>com.omnigroup.omniplan.HTMLFullReport</string>
+    </publish>
+    <publish-on-save/>
+    <subscribe-refresh>0</subscribe-refresh>
+    <leveling>
+      <constrains-completion-date/>
+    </leveling>
+    <printinfo-dictionary>
+      <key>OPReportPrintScale</key>
+      <real>1</real>
+      <key>NSPrinterName</key>
+      <string>Send to Kindle</string>
+      <key>OPPrintSettingPrintOption</key>
+      <integer>0</integer>
+      <key>OPAsDisplayedPrintScale</key>
+      <real>1</real>
+      <key>NSTopMargin</key>
+      <real>90</real>
+      <key>NSBottomMargin</key>
+      <real>90</real>
+      <key>NSRightMargin</key>
+      <real>72</real>
+      <key>NSLeftMargin</key>
+      <real>72</real>
+      <key>NSOrientation</key>
+      <integer>0</integer>
+      <key>OPPrintSettingPrintDisplayOption</key>
+      <integer>0</integer>
+      <key>NSScalingFactor</key>
+      <real>1</real>
+      <key>NSPaperName</key>
+      <string>iso-a4</string>
+    </printinfo-dictionary>
+    <page-adornment>
+      <master-page-headers>
+        <header location="left">
+          <text>
+            <p>
+              <run>
+                <lit><cell variable="OPDocumentTitleVariableIdentifier"/></lit>
+              </run>
+            </p>
+          </text>
+        </header>
+        <header location="right">
+          <text>
+            <p>
+              <run>
+                <lit><cell variable="OPPrintJobTimestampVariableIdentifier"/></lit>
+              </run>
+            </p>
+          </text>
+        </header>
+        <footer location="left">
+          <text>
+            <p>
+              <run>
+                <lit><cell variable="OPDocumentFilenameVariableIdentifier"/></lit>
+              </run>
+            </p>
+          </text>
+        </footer>
+        <footer location="right">
+          <text>
+            <p>
+              <run>
+                <lit><cell variable="OPPageNumberVariableIdentifier"/></lit>
+              </run>
+            </p>
+          </text>
+        </footer>
+      </master-page-headers>
+    </page-adornment>
+  </project>
+</omniplan>
